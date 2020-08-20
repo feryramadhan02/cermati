@@ -1,0 +1,17 @@
+.highlights {
+    max-width: 1440px;
+    padding: 30px;
+    background: #e5e5e5;
+    &__header {
+        margin: 50px;
+        padding: 0 100px;
+        h3 {
+            margin: 15px;
+            text-align: center;
+        }
+        p {
+            margin: 5px;
+            text-align: center;
+        }
+    }
+}
