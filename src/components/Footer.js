@@ -1,15 +1,19 @@
 import React from 'react'
+import Button from 'react-bootstrap/Button'
 
-
+import '../assets/style/footer.scss'
 
 const Footer = () => {
     return (
         <div>
-            <div>
-                <h3>Footer</h3>
+
+            <div className="footers">
+                <p>&copy; Fery Ramadhan Cahyono. All rights reserved.</p>
+
+
             </div>
         </div>
-    );
+    )
 }
 
 export default Footer;

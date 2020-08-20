@@ -1,0 +1,19 @@
+.base {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 15px;
+    &__card {
+        padding: 10px;
+        background-color: #e5e5e5 !important;
+        width: 400px;
+        border: 1px solid #535353;
+        p{
+            font-size: 14px;
+        }
+        &__icon{
+            h4 {
+                text-align: center;
+            }
+        }
+    }
+}

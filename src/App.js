@@ -9,12 +9,14 @@ function App() {
   return (
     <div>
       <BrowserRouter>
+        {/* notif */}
         <Header />
         <Switch>
           <Route exact path="/">
             <HomePage />
           </Route>
         </Switch>
+        {/*newletter */}
         <Footer />
       </BrowserRouter>
     </div>

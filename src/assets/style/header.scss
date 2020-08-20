@@ -1,3 +1,6 @@
+.notif {
+    margin-top: 0;
+}
 .jumbo-jumbo {
     max-width: 1440px;
     padding: 0;
@@ -41,7 +44,14 @@
                     font-size: 15px;
                     background: #ffffff00;
                     border-color: #ffffff;
+                    outline: none;
                     border-radius: 0;
+                    &:hover {
+                        background: #ffffff;
+                        color: #004a75;
+                        transition: 0.8s;
+                        border: none;
+                    }
                 }
             }
         }
