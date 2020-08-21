@@ -2,6 +2,7 @@ import React from 'react'
 import { data } from '../data/data'
 
 import '../assets/style/card.scss'
+import '../assets/style/responsive.scss'
 
 const Cards = () => {
     return (

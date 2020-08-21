@@ -1,6 +1,3 @@
-.notif {
-    margin-top: 0;
-}
 .jumbo-jumbo {
     max-width: 1440px;
     padding: 0;
@@ -40,6 +37,16 @@
             &__button {
                 margin: 10px 400px;
                 padding: 0 15px;
+                .btn-primary:focus {
+                    background-color: #ffffff;
+                    border-color: #004a75;
+                    color: #004a75;
+                    box-shadow: none;
+                }
+                .btn:focus {
+                    outline: none;
+                    box-shadow: none;
+                }
                 .primary {
                     font-size: 15px;
                     background: #ffffff00;

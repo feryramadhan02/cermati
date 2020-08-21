@@ -1,0 +1,38 @@
+.news {
+    bottom: 0;
+    left: 0;
+    width: 640px;
+    z-index: 999;
+    position: fixed;
+    padding: 15px;
+    background: #007ac1ad;
+    h4 {
+        color: #ffffff;
+        font-weight: bold;
+    }
+    p {
+        color: #ffffff;
+    }
+    &__input {
+        padding: 10px;
+        input[type=email]{
+            padding: 5px 10px;
+            margin-right: 15px;
+            width: 25rem;
+        }
+        &__count {
+            background-color: #cc6600 !important;
+            border-color: #cc6600 !important;
+            border-radius: 0 !important;
+            &:focus {
+                box-shadow: none !important;
+            }
+        }
+       
+    }
+    &__close {
+        float: right;
+        background-color: #007ac100 !important;
+        border-color: #007ac100 !important;
+    }
+}

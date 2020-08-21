@@ -1,0 +1,138 @@
+@media all and (max-width: 780px) {
+    .notif {
+            margin: auto;
+            padding: 15px 20px !important;
+            p{
+                width: 600px !important;
+                margin: 0 20px !important;
+            }
+    }
+    .jumbo-jumbo {
+        &__overlay {
+            &__introduce {
+                &__button {
+                    width: 250px;
+                    margin: 10px auto !important;
+                    padding: 0 25px !important;
+                }
+            }
+        }
+    }
+    .base {
+        grid-template-columns: auto auto;
+        margin: 0 auto;
+         &__card {
+            width: 310px;
+        }
+    }
+    .highlights {
+        &__header {
+            padding: 0 !important;
+        }
+    }
+    .news {
+        width: 350px !important;
+        h4 {
+            font-size: 1.3rem;
+        }
+        &__input {
+            padding: 0 !important;
+            input[type=email] {
+                padding: 0 10px !important;
+                width: 19rem !important;
+                margin: 10px 0;
+            }
+            &__count {
+                width: 19rem;
+                padding: 0 10px !important;
+            }
+        }
+    }
+}
+
+@media all and (max-width: 670px) {
+    .notif {
+        display: block !important;
+        margin: 0 auto;
+        padding: 15px 0;
+            margin: auto;
+            p{
+                width: auto !important;
+                font-size: 15px;
+                margin: 0 auto !important;
+                padding: 5px 30px;
+            }
+        &__hidenotif {
+            margin: 0 30px;
+            padding: auto !important;
+        }
+    }
+    .base {
+        grid-template-columns: auto;
+        margin: 0 auto;
+        width: 350px;
+         &__card {
+            width: 350px;
+            p {
+                font-size: 12px;
+            }
+            &__icon {
+                h4 {
+                    font-size: 1.3rem;
+                }
+            }
+        }
+    }
+    .jumbo-jumbo {
+        &__overlay {
+            &__introduce {
+                padding: 130px 0 !important;
+                h3 {
+                    font-size: 1.5rem;
+                }
+                h4 {
+                    font-size: 1.7rem;
+                }
+                &__button {
+                    width: 300px;
+                    margin: 10px auto !important;
+                    padding: 0 50px !important;
+                }
+            }
+        }
+    }
+    .highlights {
+        &__header {
+            padding: 0 10px !important;
+            font-size: 12px;
+            h3 {
+                font-size: 1.3rem;
+            }
+        }
+    }  
+    .footers {
+        p {
+            font-size: 13px;
+        }
+    }
+    .news {
+        width: 300px !important;
+        h4 {
+            font-size: 1.1rem;
+        }
+        p {
+            padding-right: 20px;
+            margin-bottom: 0 !important;
+        }
+        &__input {
+            input[type=email] {
+                padding: 0 10px !important;
+                width: 15rem !important;
+            }
+            &__count {
+                width: 15rem;
+                padding: 0 10px !important;
+            }
+        }
+    }
+}
