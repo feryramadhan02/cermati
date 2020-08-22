@@ -23,6 +23,11 @@
         margin: 0 auto;
          &__card {
             width: 310px;
+            &__icon {
+                img {
+                    width: 25px;
+                }
+            }
         }
     }
     .highlights {
@@ -116,9 +121,9 @@
         }
     }
     .news {
-        width: 300px !important;
-        h4 {
-            font-size: 1.1rem;
+        width: 450px !important;
+        form {
+            width: 380px;
         }
         p {
             padding-right: 20px;
@@ -127,10 +132,10 @@
         &__input {
             input[type=email] {
                 padding: 0 10px !important;
-                width: 15rem !important;
+                width: 22rem !important;
             }
             &__count {
-                width: 15rem;
+                width: 22rem;
                 padding: 0 10px !important;
             }
         }
